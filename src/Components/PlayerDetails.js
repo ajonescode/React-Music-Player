@@ -1,3 +1,11 @@
-import react from 'react';
+import React from 'react';
 
-const 
+
+const PlayerDetails = () => {
+  return(
+
+  );
+}
+
+
+export default PlayerDetails
