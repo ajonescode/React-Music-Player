@@ -5,7 +5,13 @@ import {useState} from 'react';
 export default function App() {
 
 const [songs, setSongs] = useState([
+{
+  title: "Fly ",
+  artist: "Bandino",
+  img_src: "",
+  src: ""
 
+}
 
 ])
 
