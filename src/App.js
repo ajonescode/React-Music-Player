@@ -10,7 +10,7 @@ const [songs, setSongs] = useState([
   title: "Fly ",
   artist: "Bandino",
   img_src: "",
-  src: ""
+  src: "https://anthonyjonesmusic.s3.us-east-2.amazonaws.com/Bounced+Trax/fly+prod+bandino+88_Master.wav"
 
 },
 {
