@@ -12,16 +12,22 @@ const [songs, setSongs] = useState([
   img_src: "",
   src: ""
 
+},
+{
+  title: "Drill ",
+  artist: "Bandino",
+  img_src: "",
+  src: ""
 }
 
 ])
-
+const [currrentSongIndex, setCurrentSongIndex] = useState(0);
+const [nextSongIndex, setNextSongIndex] = useState(currrentSongIndex + 1); 
   return (
     <div>
      <Player song = {songs[currrentSongIndex]} nextSong = {songs[nextSongIndex]} />
     </div>
   );
 
-  const [currrentSongIndex, setCurrentSongIndex] = useState(0);
-  const [nextSongIndex, setNextSongIndex] = useState(currrentSongIndex + 1);
+
 }
