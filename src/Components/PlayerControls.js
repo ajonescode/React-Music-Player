@@ -1,6 +1,6 @@
 import React from 'react'
-import {FontAwesomeIcon} from '@fontawesome/fontawesome-svg-core'
-import {faPlay, faPause, faBackward, faForward} from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPlay, faPause, faForward, faBackward } from '@fortawesome/free-solid-svg-icons'
 
 const PlayerControls = () =>{
 
